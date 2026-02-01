@@ -7,11 +7,11 @@ A full-stack expense tracking application built with MongoDB, Express, React, an
 
 ## 🚀 Live Demo
 
-**🔗 [View Live Application](#)** _(Add your Vercel URL here after deployment)_
+**🔗 [View Live Application](https://expense-tracker-nine-wheat-94.vercel.app)**
 
 **Demo Credentials:**
-- Email: `demo@expenso.com`
-- Password: `demo123`
+- Email: `user@user.com`
+- Password: `admin`
 
 ## ✨ Features
 
@@ -170,10 +170,10 @@ This project is licensed under the MIT License.
 
 ## 👤 Author
 
-**Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your Name](https://linkedin.com/in/yourprofile)
-- Portfolio: [yourwebsite.com](https://yourwebsite.com)
+**Harshad Kadam**
+- GitHub: [@harshad-1255](https://github.com/harshad-1255)
+- LinkedIn: [Harshad Kadam](https://linkedin.com/in/yourprofile)
+- Live Demo: [Expense Tracker](https://expense-tracker-nine-wheat-94.vercel.app)
 
 ## 🙏 Acknowledgments
 
