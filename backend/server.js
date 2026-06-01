@@ -13,11 +13,13 @@ const aiRoutes = require("./routes/aiRoutes");
 const app = express();
 
 // Middleware to handle CORS
+const allowedOrigins = (process.env.CLIENT_URL || "http://localhost:5173").split(",").map(url => url.trim());
 app.use(
   cors({
-    origin: process.env.CLIENT_URL || "*", 
+    origin: allowedOrigins, 
     methods: ["GET", "POST", "PUT", "DELETE"],
-    allowedHeaders: ["Content-Type", "Authorization"], 
+    allowedHeaders: ["Content-Type", "Authorization"],
+    credentials: true
   })
 );
 
